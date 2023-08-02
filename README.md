@@ -49,7 +49,7 @@ Use the provided character (Aileen Moonveil) to test, or create your own!
 ## Adding Custom Characters
 In the **./characters** folder:
 
-1. Create a new .json file using the same structure provided in the example Aileen.json file. Name it using the convention **CharacterFirstName.json**, without any spaces in the file.
+1. Create a new .json file using the same structure provided in the example **Ailee.json** file. Name it using the convention **CharacterFirstName.json**, without any spaces in the file.
 2. Create a square (512x512 recommended size) .png file for the character's avatar, using the same naming convention **CharacterFirstName.png**, without any spaces in the file.
 3. The new characters will be available on the top right dropdown.
 
