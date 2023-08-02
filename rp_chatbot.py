@@ -111,7 +111,7 @@ with gr.Blocks() as demo:
             dropdown.change(fn=character_select, inputs=dropdown, outputs=[avatar, chatbot])
             dropdown.change(fn=chatbot_clear, outputs=chatbot)
     with gr.Row():
-        usr_msg = gr.Textbox(interactive=True, show_label=False, placeholder="Enter your response.", scale=8)
+        usr_msg = gr.Textbox(interactive=True, show_label=False, placeholder="Character Selection:", scale=8)
         with gr.Column(min_width=220):
             submit = gr.Button(value="Submit")
             clear = gr.ClearButton([usr_msg, chatbot])
