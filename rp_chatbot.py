@@ -19,7 +19,6 @@ from dotenv import load_dotenv
 load_dotenv()
 try:
     openai.api_key = os.getenv("OPENAI_API_KEY")
-    openai.organization = os.getenv("YOUR_ORG_ID")
     model = os.getenv("OPENAI_MODEL")
 except Exception as e:
     logger.error(f"Error while fetching environment variables: {str(e)}")
