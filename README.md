@@ -25,7 +25,7 @@ git clone https://github.com/petersonpp/rp_chatbot.git
 pip install -r requirements.txt
 ```
 
-4. Update the **.env** file in the root directory with your OpenAI API key, your organization ID (if you are using one) and the name of the model you you will be using:
+4. Update the **.env** file in the root directory with your OpenAI API key, your organization ID (if you are using one) and the name of the model you will be using:
 
 ```
 OPENAI_API_KEY=your_api_key
