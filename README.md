@@ -29,8 +29,7 @@ pip install -r requirements.txt
 
 ```
 OPENAI_API_KEY=foo # your openai API key
-YOUR_ORG_ID=foo # your organization ID
-OPENAI_MODEL=gpt-3.5-turbo # the model name as provided in the openai api documentation
+OPENAI_MODEL=gpt-3.5-turbo-0613 # the model name as provided in the openai api documentation
 ```
 
 5. Run the chatbot:
